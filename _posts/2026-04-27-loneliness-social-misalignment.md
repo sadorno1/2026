@@ -8,28 +8,19 @@ htmlwidgets: true
 
 authors:
   - name: Samantha Adorno
+    url: "https://www.linkedin.com/in/samanthaadorno/"
     affiliations:
-      - name: University of Kansas
-        city: Lawrence
-        region: Kansas
-        country: USA
-    email: samantha.adorno00@gmail.com
+      name: University of Kansas
 
   - name: Akshata Kishore Moharir
+    url: "https://www.linkedin.com/in/akshatakm"
     affiliations:
-      - name: Independent Researcher
-        city: Sherwood
-        region: Oregon
-        country: USA
-    email: akshatankishore5@gmail.com
+      name: Independent Researcher
 
   - name: Ratna Kandala
+    url: "https://sites.google.com/view/drratnakandala/contact?authuser=0"
     affiliations:
-      - name: University of Kansas
-        city: Lawrence
-        region: Kansas
-        country: USA
-    email: ratnanirupama@gmail.com
+      name: University of Kansas
 
 bibliography: 2026-04-27-loneliness-social-misalignment.bib
 
