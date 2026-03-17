@@ -18,7 +18,7 @@ authors:
       name: Independent Researcher
 
   - name: Ratna Kandala
-    url: "https://sites.google.com/view/drratnakandala/contact?authuser=0"
+    url: "https://sites.google.com/view/drratnakandala/home?authuser=0"
     affiliations:
       name: University of Kansas
 
@@ -55,7 +55,7 @@ The state includes a perceived loneliness level, which represents the user’s c
 
 We then compare two Q-learning agents trained under different objectives. The first is trained on an engagement reward, meaning it is rewarded for generating immediate interaction and continued use. This choice is motivated by prior work on recommender systems, where RL and sequential decision methods are explicitly used to optimize long-term user engagement, often using interaction signals such as clicks, dwell time, or revisit behavior as reward proxies <d-cite key="zhao2017deep,chen2019topk"></d-cite>. The second agent is trained on a well-being reward, which gives credit for reducing perceived loneliness over the long run rather than merely increasing interaction in the moment.
 
-There is substantial ML work on proxy misspecification, reward hacking, preference learning, and inverse reinforcement learning for recovering latent rewards from observed behavior <d-cite key="amodei2016concrete,krakovna2020specification,christiano2017preferences,ng2000irl,ziebart2008maximum"></d-cite>. There is also prior work showing that inverse reinforcement learning and related preference-inference methods can be used to recover latent objectives in interactive, socially meaningful settings <d-cite key="ng2000irl,ziebart2008maximum,ramchurn2014irl"></d-cite>. Existing Human-AI Interaction work often focuses on trust or preference expression rather than how RL agents behave when interacting with socially vulnerable users under proxy objectives <d-cite key="gao2024trust,wang2023preference"></d-cite>. However, to the best of our knowledge:
+There is substantial ML work on proxy misspecification, reward hacking, preference learning, and inverse reinforcement learning for recovering latent rewards from observed behavior <d-cite key="amodei2016concrete,krakovna2020specification,christiano2017preferences,ng2000irl,ziebart2008maximum"></d-cite>. There is also prior work showing that inverse reinforcement learning and related preference-inference methods can be used to recover latent objectives in interactive, socially meaningful settings <d-cite key="ng2000irl,ziebart2008maximum"></d-cite>. Existing Human-AI Interaction work often focuses on trust or preference expression rather than how RL agents behave when interacting with socially vulnerable users under proxy objectives <d-cite key="gao2024trust,wang2023preference"></d-cite>. However, to the best of our knowledge:
 
 - no prior ML work models loneliness as a stateful variable with drift and accumulated harm,
 - no work uses loneliness as a testbed environment for studying social alignment failures, and
